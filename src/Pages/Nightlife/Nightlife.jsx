@@ -1,9 +1,10 @@
 import React from 'react';
-import Body from '../../Body';
+import Body from '../../components/Body/Body';
 import Nav from '../../components/Navbar/Nav';
 import Footer from '../../components/Footer/Footer';
 
-const tempText = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, a!";
+const tempText =
+  'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, a!';
 
 const Nightlife = () => {
   return (

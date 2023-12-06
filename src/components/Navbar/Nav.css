@@ -1,0 +1,27 @@
+nav {
+  background-color: #776b5d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: calc(15px + 1vw);
+}
+
+li a:hover {
+  color: #ebe3d5;
+}
