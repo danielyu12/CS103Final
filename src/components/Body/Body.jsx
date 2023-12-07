@@ -1,19 +1,24 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Carousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 import './Body.css';
 
 const Body = (props) => {
   return (
-    <div className="carousel-container">
-      <Carousel className="carousel" centerMode={true}>
-        {props.images?.map((image, ind) => (
-          <div>
+    <main>
+      <div className="carousel">
+        <Carousel
+          className="carousel"
+          controlsStrategy="alternate"
+          responsive={{ 0: { items: 1 } }}
+        >
+          {props.images?.map((image, ind) => (
             <img src={image} alt="" key={ind} />
-          </div>
-        ))}
-      </Carousel>
-    </div>
+          ))}
+        </Carousel>
+      </div>
+      <p>{props.text}</p>
+    </main>
   );
 };
 

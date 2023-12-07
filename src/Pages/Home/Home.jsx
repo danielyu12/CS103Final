@@ -18,7 +18,11 @@ const Home = () => {
         </h3>
       </header>
       <Nav />
-      <Body header="Home" images={[image2, image2]} />
+      <Body
+        header="Home"
+        images={[image2, image2]}
+        text="Welcome to Boston Bites & Sips, your ultimate guide to the vibrant culinary scene of this historic city! Explore the diverse flavors that Boston has to offer as we curate a delightful collection of restaurants, cozy coffee shops, and lively bars. Whether you're a local looking for hidden gems or a visitor eager to taste the essence of Boston, let your culinary journey begin here."
+      />
       <Footer />
     </div>
   );
