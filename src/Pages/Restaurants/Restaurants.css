@@ -15,6 +15,7 @@ main {
 
 main h2 {
   font-size: calc(20px + 1vw);
+  padding: 1vw;
   text-align: center;
   line-height: 50px;
   position: relative;
@@ -23,6 +24,22 @@ main h2 {
 
 main p {
   font-size: calc(15px + 0.5vw);
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main img {
+  max-width: 400px;
+  margin-bottom: 10vh;
+}
+
+.caption {
+  font-size: calc(10px + 0.2vw);
 }
 
 @keyframes moveUpDown {
