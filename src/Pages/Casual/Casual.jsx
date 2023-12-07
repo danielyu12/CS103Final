@@ -2,9 +2,9 @@ import React from 'react';
 import Restaurant from '../../components/Restaurant/Restaurant';
 import Nav from '../../components/Navbar/Nav';
 import RestaurantsHeader from '../../components/RestaurantsHeader/RestaurantsHeader';
-import Carmelinas from '../../assets/restaurants/casual/carmelinas.jpeg';
-import Tora from '../../assets/restaurants/casual/tora.jpeg';
-import Yume from '../../assets/restaurants/casual/yume.jpeg';
+import Carmelinas from '../../assets/restaurants/casual/carmelina.jpg';
+import Tora from '../../assets/restaurants/casual/tora.jpg';
+import Yume from '../../assets/restaurants/casual/yume.jpg';
 import Footer from '../../components/Footer/Footer';
 
 const Casual = () => {

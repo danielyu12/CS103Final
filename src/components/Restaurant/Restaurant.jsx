@@ -4,7 +4,7 @@ import './Restaurant.css';
 const Restaurant = (props) => {
   return (
     <div className="content">
-      <img className="image" src={props.image} alt={`Image of ${props.name}`} />
+      <a href='/credits'><img className="image" src={props.image} alt={`Image of ${props.name}`} /> </a>
       <div className="name-address">
         <h2 className="name">{props.name}</h2>
         <h3 className="address">{props.address}</h3>

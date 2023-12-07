@@ -10,7 +10,7 @@ const Credits = () => {
       </header>
       <Nav />
       <main style={{}}>
-        <p>
+        <p id='carmelina'>
           The image of <a target='_blank' href='https://www.flickr.com/photos/masstravel/6966479676/sizes/l/'>Carmelina's</a> is provided by <a target='_blank' href='https://www.flickr.com/photos/masstravel/'>Massachusetts Office Of Travel & Tourism</a> under <a target='_blank' href='https://creativecommons.org/licenses/by-nd/2.0/'>Creative Commons Licenses</a>.
         </p>
         <p>
