@@ -1,8 +1,39 @@
 img {
   max-width: 400px;
+  margin-right: 2vw;
 }
 
-.image-paragraph {
+.content {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1vw;
+  margin-bottom: 1vw;
+}
+
+.name-address {
+  height: 100%;
+  align-items: flex-start;
+}
+
+.name {
+  padding: 0;
+}
+
+.address {
+  padding-top: 1vh;
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    margin-bottom: 2vh;
+  }
 }
