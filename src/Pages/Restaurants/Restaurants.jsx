@@ -1,5 +1,4 @@
-import React from 'react';
-import Carousel from 'react-alice-carousel';
+import React, { useEffect } from 'react';
 import Nav from '../../components/Navbar/Nav';
 import './Restaurants.css';
 import Footer from '../../components/Footer/Footer';
@@ -7,6 +6,9 @@ import Pieronis from '../../assets/home/image1.jpg';
 import Typewriter from '../../components/Typewriter/Typewriter';
 
 const Restaurants = () => {
+  useEffect(() => {
+    document.title = 'Restaurants | Boston Bites & Sips';
+  }, []);
   return (
     <div>
       <header>

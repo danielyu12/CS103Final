@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Restaurant from '../../components/Restaurant/Restaurant';
 import Nav from '../../components/Navbar/Nav';
 import RestaurantsHeader from '../../components/RestaurantsHeader/RestaurantsHeader';
@@ -8,6 +8,9 @@ import Yume from '../../assets/restaurants/casual/yume.jpg';
 import Footer from '../../components/Footer/Footer';
 
 const Casual = () => {
+  useEffect(() => {
+    document.title = 'Casual | Boston Bites & Sips';
+  }, []);
   const restaurants = [
     {
       rname: "Carmelina's",

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import RestaurantsHeader from '../../components/RestaurantsHeader/RestaurantsHeader';
 import Krasi from '../../assets/restaurants/finedining/krasi.jpg';
 import Yvonne from '../../assets/restaurants/finedining/yvonnes.jpg';
@@ -8,6 +8,9 @@ import Nav from '../../components/Navbar/Nav';
 import Footer from '../../components/Footer/Footer';
 
 const FineDining = () => {
+  useEffect(() => {
+    document.title = 'Fine Dining | Boston Bites & Sips';
+  }, []);
   const restaurants = [
     {
       rname: 'Krasi',

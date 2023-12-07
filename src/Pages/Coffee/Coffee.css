@@ -34,3 +34,11 @@
     margin-bottom: 2vh;
   }
 }
+.intro {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border-top: 3px solid #776b5d;
+  border-bottom: 3px solid #776b5d;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
