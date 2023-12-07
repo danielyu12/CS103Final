@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Nav from '../../components/Navbar/Nav';
 import './Restaurants.css';
 import Footer from '../../components/Footer/Footer';
-import Pieronis from '../../assets/restaurants/pieronis.jpg';
+import Pieronis from '../../assets/home/image1.jpg';
 import Typewriter from '../../components/Typewriter/Typewriter';
 
 const Restaurants = () => {
@@ -19,8 +19,8 @@ const Restaurants = () => {
         <div>
           <Typewriter />
           <div>
-            <img src={Pieronis} alt="Pieroni's Restaurant" />
-            <p className="caption">Pieroni's Restaurant</p>
+            <a href='/credits'><img src={Pieronis} alt="Pieroni's Restaurant" /></a>
+            <p className="caption">Barcelona Wine Bar</p>
           </div>
 
           <p>

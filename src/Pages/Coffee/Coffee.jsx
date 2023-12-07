@@ -65,7 +65,7 @@ const Coffee = () => {
               <h3 className="address">{place.address}</h3>
               <p className="text">{place.text}</p>
             </div>
-            <img src={place.source} alt={place.name} className="image" />
+            <a href='/credits'><img src={place.source} alt={place.name} className="image" /></a>
           </div>
         ))}
       </main>
