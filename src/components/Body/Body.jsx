@@ -23,17 +23,22 @@ export default function Body(props) {
         </Carousel>
       </div>
       {props.text && (
-        <p
-          style={{
-            margin: 0,
-            backgroundColor: '#ebe3d5',
-            padding: '1vw',
-            paddingTop: 0,
-            fontSize: 'calc(10px + 1vw)',
-          }}
+        <div
+          style={{ width: '100%', display: 'flex', justifyContent: 'center' }}
         >
-          {props.text}
-        </p>
+          <p
+            style={{
+              margin: 0,
+              backgroundColor: '#ebe3d5',
+              padding: '1vw',
+              paddingTop: 0,
+              fontSize: 'calc(10px + 1vw)',
+              width: '70%',
+            }}
+          >
+            {props.text}
+          </p>
+        </div>
       )}
     </div>
   );

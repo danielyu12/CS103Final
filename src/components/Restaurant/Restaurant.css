@@ -18,6 +18,11 @@
 .name-address {
   height: 100%;
   align-items: flex-start;
+  margin-right: 2vw;
+}
+
+.name-address h2 {
+  padding: 0;
 }
 
 .name {
@@ -25,7 +30,17 @@
 }
 
 .address {
-  padding-top: 1vh;
+  margin-bottom: 1vw;
+  font-size: calc(12px + 0.5vw);
+}
+
+.intro {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border-top: 3px solid #776b5d;
+  border-bottom: 3px solid #776b5d;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 
 @media screen and (max-width: 900px) {
@@ -37,5 +52,9 @@
 
   .image {
     margin-bottom: 2vh;
+  }
+
+  .name {
+    margin-right: 0;
   }
 }
