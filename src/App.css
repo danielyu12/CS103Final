@@ -1,11 +1,19 @@
 * {
   font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
-* header,
-* main,
-* footer {
+* header {
+  background-color: #b0a695;
+  font-weight: 700;
+}
+
+* main {
   background-color: #ebe3d5;
+}
+* footer {
+  background-color: #b0a695;
 }

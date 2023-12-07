@@ -3,11 +3,12 @@ import './Restaurant.css';
 
 const Restaurant = (props) => {
   return (
-    <div>
-      <h2>{props.name}</h2>
-      <div className="image-paragraph">
-        <img src={props.image} alt={`Image of ${props.name}`} />
-        <p>{props.text}</p>
+    <div className="content">
+      <img className="image" src={props.image} alt={`Image of ${props.name}`} />
+      <div className="name-address">
+        <h2 className="name">{props.name}</h2>
+        <h3 className="address">{props.address}</h3>
+        <p className="text">{props.text}</p>
       </div>
     </div>
   );

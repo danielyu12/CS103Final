@@ -26,6 +26,7 @@ const Home = () => {
       </header>
       <Nav />
       <Body header="Home" images={images} text={text} />
+
       <Footer />
     </div>
   );

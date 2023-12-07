@@ -26,7 +26,7 @@ const Casual = () => {
   ];
   return (
     <div>
-      <RestaurantsHeader header="Fine Dining" />
+      <RestaurantsHeader header="Casual" />
       <Nav />
       <main>
         {restaurants.map(({ rname, text, image }) => (

@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  height: 8vh;
 }
 
 nav:hover {
@@ -35,7 +35,8 @@ button {
   background: none;
   padding: 0;
   margin: 0;
-  font-size: calc(15px + 1vw);
+  font-size: calc(30px + 1vw);
+  font-weight: 700;
   color: white;
   cursor: pointer;
 }

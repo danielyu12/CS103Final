@@ -15,24 +15,27 @@ main {
 
 main h2 {
   font-size: calc(20px + 1vw);
-  text-align: center;
-  line-height: 50px;
-  position: relative;
-  animation: moveUpDown 2s ease-in-out infinite;
+  padding: 1vw;
 }
 
 main p {
   font-size: calc(15px + 0.5vw);
 }
 
-@keyframes moveUpDown {
-  0%,
-  100% {
-    transform: translateY(0); /* Start and end position */
-  }
-  50% {
-    transform: translateY(
-      -20px
-    ); /* Middle position, adjust this value as needed */
-  }
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main img {
+  max-width: 400px;
+  margin-bottom: 0.5vw;
+  margin-top: 2vw;
+}
+
+.caption {
+  font-size: calc(10px + 0.2vw);
+  margin-bottom: 5vh;
 }

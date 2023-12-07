@@ -1,1 +1,11 @@
+header {
+  flex-direction: column;
+}
 
+header h1 {
+}
+
+header h3 {
+  font-size: calc(10px + 0.6vw);
+  font-style: italic;
+}
