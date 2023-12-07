@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <p>
         All rights reserved by Daniel Yu, Cheng Lin, Danielle Hsieh{' '}
-        <a href="/credits">Credits</a> &#169;
+        <Link to="/credits">Credits</Link> &#169;
       </p>
     </footer>
   );
