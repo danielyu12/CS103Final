@@ -4,6 +4,7 @@ import Nav from '../../components/Navbar/Nav';
 import './Restaurants.css';
 import Footer from '../../components/Footer/Footer';
 import Pieronis from '../../assets/restaurants/pieronis.jpg';
+import Typewriter from '../../components/Typewriter/Typewriter';
 
 const Restaurants = () => {
   return (
@@ -13,14 +14,11 @@ const Restaurants = () => {
       </header>
       <Nav />
       <main>
-        <h2>
-          ↑ Select one of the links above to see what restaurants Boston has to
-          offer! ↑
-        </h2>
         <div>
+          <Typewriter />
           <div>
             <img src={Pieronis} alt="Pieroni's Restaurant" />
-            <p className="caption"></p>
+            <p className="caption">Pieroni's Restaurant</p>
           </div>
 
           <p>

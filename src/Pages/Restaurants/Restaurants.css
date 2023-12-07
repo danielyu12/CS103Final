@@ -16,10 +16,6 @@ main {
 main h2 {
   font-size: calc(20px + 1vw);
   padding: 1vw;
-  text-align: center;
-  line-height: 50px;
-  position: relative;
-  animation: moveUpDown 2s ease-in-out infinite;
 }
 
 main p {
@@ -35,21 +31,11 @@ main div {
 
 main img {
   max-width: 400px;
-  margin-bottom: 10vh;
+  margin-bottom: 0.5vw;
+  margin-top: 2vw;
 }
 
 .caption {
   font-size: calc(10px + 0.2vw);
-}
-
-@keyframes moveUpDown {
-  0%,
-  100% {
-    transform: translateY(0); /* Start and end position */
-  }
-  50% {
-    transform: translateY(
-      -20px
-    ); /* Middle position, adjust this value as needed */
-  }
+  margin-bottom: 5vh;
 }

@@ -4,8 +4,13 @@
   margin: 0;
 }
 
-* header,
-* main,
-* footer {
+* header {
+  background-color: #b0a695;
+}
+
+* main {
   background-color: #ebe3d5;
+}
+* footer {
+  background-color: #b0a695;
 }

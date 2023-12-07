@@ -26,7 +26,7 @@ const FastCasual = () => {
   ];
   return (
     <div>
-      <RestaurantsHeader header="Fine Dining" />
+      <RestaurantsHeader header="Fast Casual" />
       <Nav />
       <main>
         {restaurants.map(({ rname, text, image }) => (
