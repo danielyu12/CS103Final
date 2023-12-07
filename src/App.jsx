@@ -12,6 +12,8 @@ import Nightlife from './Pages/Nightlife/Nightlife';
 import Casual from './Pages/Casual/Casual';
 import FineDining from './Pages/FineDining/FineDining';
 import FastCasual from './Pages/FastCasual/FastCasual';
+import Credits from './Pages/Credits/Credits';
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +27,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="coffee" element={<Coffee />} />
       <Route path="nightlife" element={<Nightlife />} />
+      <Route path="credits" element={<Credits />} />
     </Route>
   )
 );
