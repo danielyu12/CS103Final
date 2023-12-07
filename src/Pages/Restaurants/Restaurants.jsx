@@ -4,6 +4,7 @@ import './Restaurants.css';
 import Footer from '../../components/Footer/Footer';
 import Pieronis from '../../assets/home/image1.jpg';
 import Typewriter from '../../components/Typewriter/Typewriter';
+import { Link } from 'react-router-dom';
 
 const Restaurants = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Restaurants = () => {
         <div>
           <Typewriter />
           <div>
-            <a href='/credits'><img src={Pieronis} alt="Pieroni's Restaurant" /></a>
+            <Link to='/credits'><img src={Pieronis} alt="Pieroni's Restaurant" /></Link>
             <p className="caption">Barcelona Wine Bar</p>
           </div>
 
