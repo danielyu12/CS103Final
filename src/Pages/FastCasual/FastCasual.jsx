@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Jefes from '../../assets/restaurants/fastcasual/jefes.jpeg';
 import Joes from '../../assets/restaurants/fastcasual/joes.jpeg';
 import Tasty from '../../assets/restaurants/fastcasual/tasty.jpeg';
@@ -8,6 +8,9 @@ import Restaurant from '../../components/Restaurant/Restaurant';
 import Footer from '../../components/Footer/Footer';
 
 const FastCasual = () => {
+  useEffect(() => {
+    document.title = 'Fast Casual | Boston Bites & Sips';
+  }, []);
   const restaurants = [
     {
       rname: "El Jefe's Taqueria",

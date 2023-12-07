@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Body from '../../components/Body/Body';
 import Nav from '../../components/Navbar/Nav';
 import Footer from '../../components/Footer/Footer';
@@ -9,6 +9,9 @@ import image4 from '../../assets/coffee/coffee-render.jpg';
 import './Coffee.css';
 
 const Coffee = () => {
+  useEffect(() => {
+    document.title = 'Coffee | Boston Bites & Sips';
+  }, []);
   const content = [
     {
       source: image1,

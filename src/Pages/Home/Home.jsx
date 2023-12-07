@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../../components/Navbar/Nav';
 import Footer from '../../components/Footer/Footer';
 import Body from '../../components/Body/Body';
@@ -9,6 +9,10 @@ import image4 from '../../assets/home/image4.jpg';
 import './Home.css';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Home | Boston Bites & Sips';
+  }, []);
+
   const images = [
     { name: 'Barcelona', source: image1 },
     { name: 'Carmelina', source: image2 },
@@ -20,7 +24,7 @@ const Home = () => {
   return (
     <div>
       <header>
-        <h1>Home</h1>
+        <h1>Boston Bites & Sips</h1>
         <h3>
           Savor the Flavor: Uncover Boston's Culinary Gems with Restaurant
           Recommender
