@@ -6,6 +6,9 @@ nav {
   height: 5vh;
 }
 
+nav:hover {
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -23,5 +26,20 @@ li a {
 }
 
 li a:hover {
+  color: #ebe3d5;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: calc(15px + 1vw);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
   color: #ebe3d5;
 }
