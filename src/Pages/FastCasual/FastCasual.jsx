@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import Jefes from '../../assets/restaurants/fastcasual/jefes.jpeg';
-import Joes from '../../assets/restaurants/fastcasual/joes.jpeg';
-import Tasty from '../../assets/restaurants/fastcasual/tasty.jpeg';
+import Jefes from '../../assets/restaurants/fastcasual/jefes.jpg';
+import Joes from '../../assets/restaurants/fastcasual/joes.jpg';
+import Tasty from '../../assets/restaurants/fastcasual/tasty.jpg';
 import RestaurantsHeader from '../../components/RestaurantsHeader/RestaurantsHeader';
 import Nav from '../../components/Navbar/Nav';
 import Restaurant from '../../components/Restaurant/Restaurant';
