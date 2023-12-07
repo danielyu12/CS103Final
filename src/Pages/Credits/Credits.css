@@ -1,0 +1,7 @@
+main a {
+  color: #606c38;
+}
+
+main p {
+  font-size: calc(15px + 0.5vw);
+}
