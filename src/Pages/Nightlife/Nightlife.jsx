@@ -5,6 +5,7 @@ import image1 from '../../assets/nightlife/hecate-bar.jpg';
 import image2 from '../../assets/nightlife/street-bar.jpg';
 import image3 from '../../assets/nightlife/offsuit-bar.jpg';
 import image4 from '../../assets/nightlife/citrus-bar.jpg';
+import { Link } from 'react-router-dom';
 
 const Nightlife = () => {
   useEffect(() => {
@@ -55,7 +56,7 @@ const Nightlife = () => {
         <p className="intro">{intro}</p>
         {content.map((place, ind) => (
           <div key={ind} className="content">
-            <img src={place.source} alt={place.name} className="image" />
+            <Link to='/credits'><img src={place.source} alt={place.name} className="image" /></Link>
 
             <div className="name-address">
               <h2 className="name">{place.name}</h2>
