@@ -7,6 +7,7 @@ import image2 from '../../assets/coffee/coffee-gracenote.jpg';
 import image3 from '../../assets/coffee/coffee-ogawa.jpg';
 import image4 from '../../assets/coffee/coffee-render.jpg';
 import './Coffee.css';
+import { Link } from 'react-router-dom';
 
 const Coffee = () => {
   useEffect(() => {
@@ -65,7 +66,7 @@ const Coffee = () => {
               <h3 className="address">{place.address}</h3>
               <p className="text">{place.text}</p>
             </div>
-            <a href='/credits'><img src={place.source} alt={place.name} className="image" /></a>
+            <Link to='/credits'><img src={place.source} alt={place.name} className="image" /></Link>
           </div>
         ))}
       </main>
