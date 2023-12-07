@@ -7,3 +7,7 @@ footer a,
 footer p {
   font-size: calc(10px + 0.4vw);
 }
+
+footer a {
+  color: #606c38;
+}
