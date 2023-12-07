@@ -5,6 +5,7 @@ import Tasty from '../../assets/restaurants/fastcasual/tasty.jpeg';
 import RestaurantsHeader from '../../components/RestaurantsHeader/RestaurantsHeader';
 import Nav from '../../components/Navbar/Nav';
 import Restaurant from '../../components/Restaurant/Restaurant';
+import Footer from '../../components/Footer/Footer';
 
 const FastCasual = () => {
   const restaurants = [
@@ -33,6 +34,7 @@ const FastCasual = () => {
           <Restaurant name={rname} text={text} key={rname} image={image} />
         ))}
       </main>
+      <Footer />
     </div>
   );
 };

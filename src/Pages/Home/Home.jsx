@@ -6,15 +6,17 @@ import image1 from '../../assets/home/image1.jpg';
 import image2 from '../../assets/home/image2.jpg';
 import image3 from '../../assets/home/image3.jpg';
 import image4 from '../../assets/home/image4.jpg';
+import './Home.css';
 
 const Home = () => {
   const images = [
-    { name: "Barcelona", source: image1 },
-    { name: "Carmelina", source: image2 },
-    { name: "Ogawa", source: image3 },
-    { name: "Yume ga Arukara", source: image4 },
-  ]
-  const text = "Welcome to Boston Bites & Sips, your ultimate guide to the vibrant culinary scene of this historic city! Explore the diverse flavors that Boston has to offer as we curate a delightful collection of restaurants, cozy coffee shops, and lively bars. Whether you're a local looking for hidden gems or a visitor eager to taste the essence of Boston, let your culinary journey begin here.";
+    { name: 'Barcelona', source: image1 },
+    { name: 'Carmelina', source: image2 },
+    { name: 'Ogawa', source: image3 },
+    { name: 'Yume ga Arukara', source: image4 },
+  ];
+  const text =
+    "Welcome to Boston Bites & Sips, your ultimate guide to the vibrant culinary scene of this historic city! Explore the diverse flavors that Boston has to offer as we curate a delightful collection of restaurants, cozy coffee shops, and lively bars. Whether you're a local looking for hidden gems or a visitor eager to taste the essence of Boston, let your culinary journey begin here.";
   return (
     <div>
       <header>

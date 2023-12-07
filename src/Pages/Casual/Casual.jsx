@@ -5,6 +5,7 @@ import RestaurantsHeader from '../../components/RestaurantsHeader/RestaurantsHea
 import Carmelinas from '../../assets/restaurants/casual/carmelinas.jpeg';
 import Tora from '../../assets/restaurants/casual/tora.jpeg';
 import Yume from '../../assets/restaurants/casual/yume.jpeg';
+import Footer from '../../components/Footer/Footer';
 
 const Casual = () => {
   const restaurants = [
@@ -33,6 +34,7 @@ const Casual = () => {
           <Restaurant name={rname} text={text} key={rname} image={image} />
         ))}
       </main>
+      <Footer />
     </div>
   );
 };
