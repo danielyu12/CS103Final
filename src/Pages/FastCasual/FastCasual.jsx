@@ -9,12 +9,12 @@ import Restaurant from '../../components/Restaurant/Restaurant';
 const FastCasual = () => {
   const restaurants = [
     {
-      rname: 'Jefes',
+      rname: "El Jefe's Taqueria",
       text: 'Securing a reservation at Krasi may prove challenging, but the experience lives up to its well-deserved acclaim: exceptional Greek cuisine, an impressive wine selection, and warm hospitality in a stylish yet inviting atmosphere. Chef Valentine Howell, a 2023 James Beard award finalist, leads the kitchen, while Evan Turner oversees the outstanding wine program. From freshly baked breads and make-it-yourself tzatziki to Greek cheeses and standout dishes like mushroom orzo, grilled octopus, and lamb osso buco, each element is exceptional and perfect for sharing with a friend.',
       image: Jefes,
     },
     {
-      rname: "Joes's",
+      rname: "Joe's",
       text: "Craving an upscale evening? Yvonne's, presenting itself as a contemporary supper club, proves to be an excellent choice. Beyond its stylish ambiance, this sophisticated establishment offers not only exquisite snacks and cocktails but also sizable shared dishes and beverages perfect for enjoying with friends.",
       image: Joes,
     },

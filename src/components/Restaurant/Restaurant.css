@@ -1,6 +1,8 @@
-img {
+.image {
   max-width: 400px;
   margin-right: 2vw;
+  margin-bottom: 0;
+  margin-top: 1vh;
 }
 
 .content {

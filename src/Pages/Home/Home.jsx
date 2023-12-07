@@ -10,12 +10,13 @@ import './Home.css';
 
 const Home = () => {
   const images = [
-    { name: "", source: image1 },
-    { name: "Yume ga Akura", source: image2 },
-    { name: "Yume ga Akura", source: image3 },
-    { name: "Yume ga Akura", source: image4 },
-  ]
-  const text = "Welcome to Boston Bites & Sips, your ultimate guide to the vibrant culinary scene of this historic city! Explore the diverse flavors that Boston has to offer as we curate a delightful collection of restaurants, cozy coffee shops, and lively bars. Whether you're a local looking for hidden gems or a visitor eager to taste the essence of Boston, let your culinary journey begin here.";
+    { name: '', source: image1 },
+    { name: 'Yume ga Akura', source: image2 },
+    { name: 'Yume ga Akura', source: image3 },
+    { name: 'Yume ga Akura', source: image4 },
+  ];
+  const text =
+    "Welcome to Boston Bites & Sips, your ultimate guide to the vibrant culinary scene of this historic city! Explore the diverse flavors that Boston has to offer as we curate a delightful collection of restaurants, cozy coffee shops, and lively bars. Whether you're a local looking for hidden gems or a visitor eager to taste the essence of Boston, let your culinary journey begin here.";
   return (
     <div>
       <header>
@@ -27,6 +28,7 @@ const Home = () => {
       </header>
       <Nav />
       <Body header="Home" images={images} text={text} />
+
       <Footer />
     </div>
   );
